@@ -6,7 +6,7 @@ This repository contains the R code used to reconstruct questionnaire scores and
 
 ```text
 .
-├── liver_transplant_adherence_analysis_repository.R
+├── analysis.R
 ├── README.md
 ├── renv.lock
 ├── data/
@@ -29,7 +29,7 @@ A different location can be supplied without editing the script:
 ```r
 Sys.setenv(ANALYSIS_DATA_FILE = "path/to/analytic_file.sav")
 Sys.setenv(ANALYSIS_OUTPUT_DIR = "path/to/results")
-source("liver_transplant_adherence_analysis_repository.R")
+source("analysis.R")
 ```
 
 ## Reproducibility
