@@ -54,9 +54,6 @@ EXPORT_ROW_LEVEL_OUTPUTS <- FALSE
 SAVE_FITTED_MODELS <- FALSE
 ```
 
-## Suggested manuscript statement
-
-> The complete R analysis script used for questionnaire score reconstruction, inferential analyses, sensitivity analyses, and exploratory grouped nested cross-validation is available at [VERIFIED REPOSITORY URL]. Participant-level data are not publicly available because of confidentiality restrictions but may be available from the corresponding author, subject to institutional approval and an appropriate data-use agreement.
 
 ## Scope of the prediction analyses
 
