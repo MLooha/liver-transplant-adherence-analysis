@@ -8,7 +8,6 @@ This repository contains the R code used to reconstruct questionnaire scores and
 .
 ├── analysis.R
 ├── README.md
-├── renv.lock
 ├── data/
 │   └── README_data_access.md
 └── results/                 # generated locally; not committed
@@ -34,7 +33,7 @@ source("analysis.R")
 
 ## Reproducibility
 
-Run the analysis from the repository root in the R environment recorded by `renv.lock`. The script records the random seed, input-file SHA-256 hash, package versions, session information, resampling configuration, and generated output inventory.
+Run the analysis from the repository root. The script records the random seed, input-file SHA-256 hash, package versions, session information, resampling configuration, and generated output inventory.
 
 Before the final repository release:
 
