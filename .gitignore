@@ -1,0 +1,34 @@
+# Participant-level data
+data/*.sav
+data/*.zsav
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.rds
+data/*.RData
+
+# Generated results and logs
+results/
+output/
+Output/
+*.log
+*.Rout
+.Rhistory
+.RData
+
+# Fitted models and serialized objects
+*.rds
+*.rda
+*.RData
+
+# Temporary and editor files
+.Rproj.user/
+*.Rproj
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# Keep documentation placeholders
+!data/README_data_access.md
